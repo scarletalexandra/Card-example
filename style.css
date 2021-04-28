@@ -1,0 +1,51 @@
+body {background-color: lightgray;}
+p { font-size: 16px;
+       font-family: Karla; }
+
+.card { width: 595px;
+      margin: auto;}    
+.first {
+    background-color: white;
+    width: 555px;
+    padding-left: 40px;
+    margin-bottom: -16px;
+    padding-top: 20px;
+    border-radius: 5px 5px 0 0;}
+
+.first > h2 {color:rgb(8, 167, 167)}
+.first > h3 {color: greenyellow;}
+.first > p {color:rgba(105, 105, 105, 0.959);}
+.second { display: flex;
+         width: 595px;
+         border-radius: 0 0 5px 5px; }
+
+
+span {color:lightgray;}
+.dolar  {font-size: 40px;
+         color: white; }
+
+.col-1 { background-color: rgb(23, 133, 133);
+        padding-left: 40px;
+        padding-right: 40px;
+        width: 50%;
+         border-radius: 0 0 0 5px;}
+.col-1 > h4 {color: white;}      
+.col-1  > p  {color: lightgray;}
+.col-2 {background-color: rgb(5, 172, 172);
+        padding-right: 80px;
+        width: 50%;
+        border-radius: 0 0 5px 0;}
+ul {list-style-type: none;
+     color: lightgray;}
+.col-2 > h4 {padding-left: 37px;
+             color:white  }
+button {text-align: center;
+         background-color: greenyellow;
+         color: white;
+         width: 217px;
+        height: 44px;
+        border-radius: 10px;
+        font-weight: bold; 
+        }    
+        
+button:hover { background-color: green;  }     
